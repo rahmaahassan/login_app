@@ -7,7 +7,7 @@ class AuthService {
 // ignore: deprecated_member_use
   User _userFromFirebaseUser(FirebaseUser user) {
     if (user != null) {
-      return UserM(uid: user.uid);
+      return User(uid: user.uid);
     } else {
       return null;
     }

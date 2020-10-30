@@ -1,4 +1,4 @@
-class UserM {
+class User {
   final String uid;
   UserM({this.uid});
 }
